@@ -87,9 +87,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     fill: var(--primary-title-color);
     background: rgba(255, 255, 255, 0.1);
 
@@ -168,9 +166,7 @@
 }
 
 .footer-button-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
 }
 
 .footer-form-content {

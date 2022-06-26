@@ -35,9 +35,7 @@
     right: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
 }
 
 .backdrop.is-hidden {
@@ -149,9 +147,7 @@
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     margin-bottom: 30px;
 
     &::before {

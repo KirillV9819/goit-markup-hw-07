@@ -27,9 +27,7 @@
     height: 100%;
     border-radius: 5%;
     border: 1px solid #AFB1B8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
 
     transition-property: border-color;
     transition-duration: 250ms;
