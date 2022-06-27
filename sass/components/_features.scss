@@ -3,7 +3,7 @@
     flex-wrap: wrap;
 }
 
-.features-list-item {
+.features-list__item {
     flex-basis: calc((100% - 90px) / 4);
 
     &:not(:nth-child(4n)) {
@@ -11,7 +11,7 @@
         }
 }
 
-.features-list-item-title {
+.features-list__item-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -21,14 +21,14 @@
     margin-bottom: 10px;
 }
 
-.features-list-item-text {
+.features-list__item-text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
-.features-list-icon-link {
+.features-list__item-link {
     @extend %align;
     width: 270px;
     height: 120px;

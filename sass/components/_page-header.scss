@@ -13,7 +13,7 @@
     display: flex;
 }
 
-.navigation-list-item:not(:last-child) {
+.navigation-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -22,7 +22,7 @@
     border-bottom: 1px solid #ECECEC
 }
 
-.navigation-list-link {
+.navigation-list__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -58,7 +58,7 @@
 
 
 
-.contacts-list-link {
+.contacts-list__link {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -84,7 +84,7 @@
     display: flex;
 }
 
-.contacts-list-item {
+.contacts-list__item {
     display: flex;
     align-items: center;
 
@@ -101,8 +101,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .contacts-list-link:hover &,
-    .contacts-list-link:focus & {
+    .contacts-list__link:hover &,
+    .contacts-list__link:focus & {
             fill: var(--accent-color)
         }
 }

@@ -1,4 +1,4 @@
-.clients-title {
+.clients__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -8,12 +8,12 @@
     margin-bottom: 50px;
 }
 
-.client-list {
+.clients-list {
     display: flex;
     justify-content: center;
 }
 
-.clients-list-item {
+.clients-list__item {
     width: 170px;
     height: 92px;
 
@@ -22,7 +22,7 @@
     }
 }
 
-.clients-link {
+.clients-list__item-link {
     width: 100%;
     height: 100%;
     border-radius: 5%;
@@ -39,15 +39,15 @@
     }
 }
 
-.client-icon {
+.clients-list__item-icon {
     fill: var(--primary-icons-color);
 
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .clients-link:hover &,
-    .clients-link:focus & {
+    .clients-list__item-link:hover &,
+    .clients-list__item-link:focus & {
         fill: var(--accent-color);
         }
 

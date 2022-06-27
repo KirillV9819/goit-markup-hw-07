@@ -2,7 +2,7 @@
     padding-top: 0px;
 }
 
-.services-title {
+.services__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -12,11 +12,11 @@
     margin-bottom: 50px;
 }
 
-.service-list-overlay {
+.services-list__item-overlay {
     position: relative;
 }
 
-.service-list-overlay-text {
+.services-list__item-overlay-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -38,6 +38,6 @@
     flex-wrap: wrap;
 }
 
-.services-list-item:not(:nth-child(3n)) {
+.services-list__item:not(:nth-child(3n)) {
     margin-right: 30px;
 }

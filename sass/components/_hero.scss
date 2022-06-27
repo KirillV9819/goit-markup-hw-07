@@ -1,4 +1,4 @@
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -10,7 +10,7 @@
     margin-top: 0;
 }
 
-.hero-button-text {
+.hero-button__text {
     @extend %align;
     font-family: inherit;
     font-weight: 700;

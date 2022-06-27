@@ -23,7 +23,7 @@
     color: var(--primary-title-color);
 }
 
-.address-link {
+.address-list__item-link {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -53,7 +53,7 @@
     font-style: normal;
 }
 
-.address-list-item:not(:last-child) {
+.address-list__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -61,19 +61,18 @@
     display: flex;
 }
 
-.our-social-network-item {
+.our-social-networks__item {
+    @extend %align;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-
+    
     &:not(:last-child) {
         margin-right: 10px;
     }
 }
 
-.social-networks-title {
+.our-social-networks__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -83,7 +82,7 @@
     margin-bottom: 20px;
 }
 
-.our-social-network-link {
+.our-social-networks__item-link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -106,7 +105,7 @@
     justify-self: flex-end;
 }
 
-.footer-form-text {
+.footer-form__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -117,7 +116,7 @@
     margin-bottom: 20px;
 }
 
-.footer-input {
+.footer-form__input {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -130,28 +129,7 @@
     padding-left: 16px;
 }
 
-.footer-form-button {
-    width: 200px;
-    height: 50px;
-    background: var(--accent-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: transparent;
-    cursor: pointer;
-
-    padding: 10px 29px;
-
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        background: #188CE8;
-    }
-}
-
-.footer-button-text {
+.footer-form-button__text {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -161,11 +139,11 @@
     margin-right: 10px;
 }
 
-.footer-button-icon {
+.footer-form-button__icon {
     fill: var(--primary-title-color);
 }
 
-.footer-button-content {
+.footer-form-button-content {
     @extend %align;
 }
 
