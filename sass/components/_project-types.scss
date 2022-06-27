@@ -1,14 +1,14 @@
-.projects-types-list {
+.project-types-list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.menu-buttons:not(:last-child) {
+.project-types-list-buttons:not(:last-child) {
     margin-right: 8px;
 }
 
-.button {
+.project-types-button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
