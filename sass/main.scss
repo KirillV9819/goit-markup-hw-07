@@ -7,14 +7,14 @@
 @import './base/section';
 
 @import './components/logo';
-@import './components/page-header';
+@import './layouts/page-header';
 @import './components/button';
-@import './components/hero';
-@import './components/features';
-@import './components/services';
-@import './components/team';
-@import './components/clients';
-@import './components/footer';
-@import './components/project-types';
-@import './components/projects';
-@import './components/modal';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/services';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/project-types';
+@import './layouts/projects';
+@import './layouts/modal';

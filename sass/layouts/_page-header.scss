@@ -1,4 +1,4 @@
-.page-header-container {
+.header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +45,7 @@
     }
 }
 
-.link.current::after {
+.navigation-list__link--current::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -93,7 +93,7 @@
         }
 }
 
-.contacts-icon {
+.contacts-list__icon {
     fill: #757575;
     margin-right: 10px;
 

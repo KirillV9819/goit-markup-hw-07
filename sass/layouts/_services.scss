@@ -1,22 +1,12 @@
-.services {
+.section--no-padding-top {
     padding-top: 0px;
 }
 
-.services__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    margin-bottom: 50px;
-}
-
-.services-list__item-overlay {
+.services-list__overlay {
     position: relative;
 }
 
-.services-list__item-overlay-text {
+.services-list__overlay-text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
