@@ -45,6 +45,10 @@
     }
 }
 
+.navigation-list__link--current{
+    color: var(--accent-color);
+}
+
 .navigation-list__link--current::after {
     content: '';
     position: absolute;

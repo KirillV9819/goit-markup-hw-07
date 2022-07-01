@@ -1,5 +1,5 @@
 /* Projects */
-.project-card-link {
+.project-cards__link {
     display: block;
     color: inherit;
     text-decoration: none;
@@ -14,7 +14,7 @@
     }
 }
 
-.project-name {
+.project-cards__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -23,24 +23,19 @@
     margin-bottom: 4px;
 }
 
-.project-orientation {
+.project-cards__text {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
-.projects-container {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.projects-section-list {
+.project-cards-list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.project-card {
+.project-cards__item {
     flex-basis: calc((100% - 270px) / 9);
 
     &:not(:nth-child(3n)) {
@@ -52,18 +47,18 @@
     }
 }
 
-.project-card-content {
+.project-cards__content {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: none;
 }
 
-.project-card-overlay {
+.project-cards__overlay {
     position: relative;
     overflow: hidden;
 }
 
-.project-card-overlay-text {
+.project-cards__overlay-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.55;
@@ -86,8 +81,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .project-card-link:hover &,
-    .project-card-link:focus & {
+    .project-cards__link:hover &,
+    .project-cards__link:focus & {
         transform: translateY(0%);
     }
 }

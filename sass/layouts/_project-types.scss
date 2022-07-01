@@ -4,11 +4,11 @@
     margin-bottom: 50px;
 }
 
-.project-types-list-buttons:not(:last-child) {
+.project-types-list__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.project-types-button {
+.project-types-list__button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
